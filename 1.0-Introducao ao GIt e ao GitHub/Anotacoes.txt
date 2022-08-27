@@ -1,0 +1,25 @@
+Download Git: https://git-scm.com/downloads
+========================================================
+COMANDOS GIT
+>>git init<< inicializar git no repositorio local
+>>git config --global user.mail "email"<< set email
+>>git config --global user.mail "nome"<< set nome
+>>git add *<< adicionar todos (*.) arquivos untraked para traked (unmmodified)
+>>git commit -m "commit inicial"<< commitar repositorio local (staged) --> unmodified
+>>git status<< verificar arquivos não commit (staged)
+>>git add nomeArquivo nomePasta/<< adicionar arquivo e pasta (staged)
+>>git config --list<< listar configuraçoes (Q para sair)
+>>git config --global --unset user.mail<< resetar email
+>>git config --global --unset user.name<< resetar nome
+>>git remote add origin URL_GitHub<< apontar para repositorio local para remoto (pegar a URL no GitHub)
+>>git remote -v<< lista os repositorios remotos
+>>git status<< verificar status antes de empurrar
+>>git push origin master<< empurrar repositório local para remoto
+==========================================================
+CONFLITOS
+>>git pull origin master<< puxar do remoto para local
+editar a linha em conflito/commitar/empurrar novamente
+==========================================================
+CLONAR REPOSITORIOS
+copiar o https do repositório remoto
+>>git clone https://URL<< colar a URL
